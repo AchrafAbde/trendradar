@@ -1,0 +1,11 @@
+streamlit==1.56.0
+river==0.24.2
+networkx==3.6.1
+plotly==6.7.0
+numpy==2.4.4
+pandas==2.3.3
+joblib==1.5.3
+scikit-learn==1.8.0
+Mastodon.py==2.2.1
+beautifulsoup4==4.14.3
+websockets==16.0
