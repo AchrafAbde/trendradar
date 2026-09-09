@@ -102,9 +102,6 @@ Team project (4 members) developed as part of the AI & Data Science engineering 
 
 Software Engineering Student | AI & Data Science | Machine Learning
 
-```
-
-**That's the whole file.** Just copy everything inside that single block and replace the current `README.md`.
 
 Then we'll do the **About description + topics**, and move directly to the next project.
 ```
