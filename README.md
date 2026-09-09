@@ -1,3 +1,4 @@
+
 # TrendRadar — Early Detection of Viral Trends
 
 > Machine learning system for predicting a keyword's future virality from its first 15 minutes of activity.
@@ -31,17 +32,22 @@ XGBoost Trend Prediction
 Online Learning / Concept Drift Detection
         ↓
 TrendRadar
+````
 
-Technologies
-Python
-XGBoost
-Scikit-learn
-Optuna
-River
-Streamlit
-Pandas
-NumPy
-Project Structure
+## Technologies
+
+* Python
+* XGBoost
+* Scikit-learn
+* Optuna
+* River
+* Streamlit
+* Pandas
+* NumPy
+
+## Project Structure
+
+```text
 TrendRadar/
 ├── app.py
 ├── extractor.py
@@ -58,36 +64,47 @@ TrendRadar/
 ├── trendradar_xgb_model.pkl
 ├── trendradar_river_model.pkl
 └── trendradar_normalizer.pkl
-Machine Learning
-Offline Prediction
+```
 
-The main prediction model uses XGBoost to classify whether a keyword is likely to become viral based on its early activity.
+## Machine Learning
 
-Online Learning
+### Offline Prediction
 
-The system also incorporates River Adaptive Random Forest to support continuous learning and detect changes in data patterns over time.
+The main prediction model uses **XGBoost** to classify whether a keyword is likely to become viral based on its early activity.
 
-Optimization
+### Online Learning
 
-Optuna is used to optimize model parameters and experiment with feature configurations.
+The system also incorporates **River Adaptive Random Forest** to support continuous learning and detect changes in data patterns over time.
 
-Project Context
+### Optimization
 
-This project was developed as part of a Master's / engineering AI & Data Science curriculum, with a focus on machine learning, predictive modeling, and online learning.
+**Optuna** is used to optimize model parameters and experiment with feature configurations.
 
-Author
+## Project Context
 
-Achraf Abderrazik
+Team project (4 members) developed as part of the AI & Data Science engineering curriculum, with a focus on machine learning, predictive modeling, and online learning.
+
+## Highlights
+
+* Early viral-trend detection
+* 12-hour virality prediction
+* XGBoost classification
+* Online learning with River
+* Concept-drift detection
+* Feature engineering and normalization
+* Hyperparameter optimization with Optuna
+* Social-media data connectors
+* Streamlit-based application
+
+## Author
+
+**Achraf Abderrazik**
 
 Software Engineering Student | AI & Data Science | Machine Learning
 
+```
 
-### What you do now
+**That's the whole file.** Just copy everything inside that single block and replace the current `README.md`.
 
-On your **TrendRadar GitHub page**, click:
-
-**Add a README → paste the text above → Commit changes**
-
-Don't upload anything else yet. Your `.pkl` files are already in the repository, as shown in your screenshot.
-
-After you add the README, send me the screenshot of the repository page and we'll move to the **next repo
+Then we'll do the **About description + topics**, and move directly to the next project.
+```
